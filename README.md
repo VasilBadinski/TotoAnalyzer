@@ -142,38 +142,6 @@ dotnet run
 
 ---
 
-# Снимки
-
-## Главно меню
-
-(Добавете screenshot тук)
-
----
-
-## Bar Chart на най-честите числа
-
-(Добавете screenshot тук)
-
----
-
-## Горещи двойки
-
-(Добавете screenshot тук)
-
----
-
-## Разпределение по десетици
-
-(Добавете screenshot тук)
-
----
-
-## Heat Map
-
-(Добавете screenshot тук)
-
----
-
 # Образователна цел
 
 Проектът е създаден като университетска/курсова задача с цел демонстрация на:
@@ -185,12 +153,3 @@ dotnet run
 * добра архитектура на проекта.
 
 ---
-
-# Автор
-
-Vasko Sexa
-
-* file processing;
-* data parsing;
-* console visualizations;
-* clean project architecture.
