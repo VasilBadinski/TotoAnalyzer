@@ -1,39 +1,39 @@
-# 🎰 Toto Analyzer
+# Toto Analyzer
 
-Console application written in C# for analyzing Bulgarian Toto 2 (6/49) lottery draws.
+Конзолно приложение, написано на C#, за анализ на резултати от Българското Тото 2 (6/49).
 
-The project downloads historical draw data, processes it with LINQ and visualizes statistics directly in the console using ASCII charts and heat maps.
-
----
-
-# 📌 Features
-
-## ✅ Data Loading
-
-* Downloads historical Toto 6/49 results
-* Supports both:
-
-  * TXT files
-  * DOCX files
-* Parses and converts data into structured objects
+Проектът изтегля исторически данни за тиражите, обработва ги чрез LINQ и визуализира статистики директно в конзолата чрез ASCII графики и heat map визуализации.
 
 ---
 
-## ✅ LINQ Statistics
+# Функционалности
 
-The application provides several statistical analyses:
+## Зареждане на данни
 
-### 🔹 Top N Most Frequent Numbers
+* Изтегля исторически резултати от Тото 6/49
+* Поддържа:
 
-Shows the most commonly drawn numbers.
+  * TXT файлове
+  * DOCX файлове
+* Парсва и преобразува данните в структурирани обекти
 
-### 🔹 Hot Pairs
+---
 
-Finds which number pairs appear together most often.
+## LINQ статистики
 
-### 🔹 Distribution by Tens
+Приложението предоставя няколко статистически анализа:
 
-Groups numbers into:
+### Топ N най-чести числа
+
+Показва най-често теглените числа.
+
+### Горещи двойки
+
+Намира кои двойки числа се срещат най-често заедно.
+
+### Разпределение по десетици
+
+Групира числата в:
 
 * 1-10
 * 11-20
@@ -43,13 +43,13 @@ Groups numbers into:
 
 ---
 
-## ✅ Console Visualizations
+## Конзолни визуализации
 
-### 📊 ASCII Bar Charts
+### ASCII Bar Charts
 
-Displays statistics using `#` characters.
+Показва статистики чрез символа `#`.
 
-Example:
+Пример:
 
 ```text
 7  | #################### 143
@@ -57,29 +57,29 @@ Example:
 21 | #################    119
 ```
 
-### 🌡 Heat Map 7x7
+### Heat Map 7x7
 
-Numbers from 1 to 49 are displayed in a colored grid.
+Числата от 1 до 49 се визуализират в цветна мрежа.
 
-Colors:
+Цветове:
 
-* 🔴 Red → hot numbers
-* 🟡 Yellow → neutral
-* 🔵 Cyan → cold numbers
-
----
-
-## ✅ Interactive Menu
-
-Users can:
-
-* select period of analysis;
-* choose different statistics;
-* enter custom parameters.
+* Червено → най-чести числа
+* Жълто → средна честота
+* Циан → най-редки числа
 
 ---
 
-# 🛠 Technologies Used
+## Интерактивно меню
+
+Потребителите могат:
+
+* да изберат период за анализ;
+* да изберат различни статистики;
+* да въвеждат собствени параметри.
+
+---
+
+# Използвани технологии
 
 * C#
 * .NET
@@ -91,7 +91,7 @@ Users can:
 
 ---
 
-# 📂 Project Structure
+# Структура на проекта
 
 ```text
 CourseProject/
@@ -106,17 +106,17 @@ CourseProject/
 
 ---
 
-# 🚀 How to Run
+# Стартиране на проекта
 
-## 1. Clone the repository
+## 1. Клониране на repository
 
 ```bash
 git clone https://github.com/your-username/toto-analyzer.git
 ```
 
-## 2. Open the project
+## 2. Отваряне на проекта
 
-Open the solution in:
+Отворете решението чрез:
 
 * Visual Studio
 * Rider
@@ -124,9 +124,9 @@ Open the solution in:
 
 ---
 
-## 3. Install dependencies
+## 3. Инсталиране на зависимости
 
-Install OpenXML package:
+Инсталиране на OpenXML пакета:
 
 ```bash
 Install-Package DocumentFormat.OpenXml
@@ -134,7 +134,7 @@ Install-Package DocumentFormat.OpenXml
 
 ---
 
-## 4. Run the project
+## 4. Стартиране на проекта
 
 ```bash
 dotnet run
@@ -142,43 +142,54 @@ dotnet run
 
 ---
 
-# 📷 Screenshots
+# Снимки
 
-## Main Menu
+## Главно меню
 
-(Add screenshot here)
-
----
-
-## Top Numbers Bar Chart
-
-(Add screenshot here)
+(Добавете screenshot тук)
 
 ---
 
-## Hot Pairs
+## Bar Chart на най-честите числа
 
-(Add screenshot here)
+(Добавете screenshot тук)
 
 ---
 
-## Distribution by Tens
+## Горещи двойки
 
-(Add screenshot here)
+(Добавете screenshot тук)
+
+---
+
+## Разпределение по десетици
+
+(Добавете screenshot тук)
 
 ---
 
 ## Heat Map
 
-(Add screenshot here)
+(Добавете screenshot тук)
 
 ---
 
-# 📚 Educational Purpose
+# Образователна цел
 
-This project was created as a university/course assignment to demonstrate:
+Проектът е създаден като университетска/курсова задача с цел демонстрация на:
 
-* LINQ usage;
+* използване на LINQ;
+* обработка на файлове;
+* парсване на данни;
+* конзолни визуализации;
+* добра архитектура на проекта.
+
+---
+
+# Автор
+
+Vasko Sexa
+
 * file processing;
 * data parsing;
 * console visualizations;
